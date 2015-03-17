@@ -48,4 +48,6 @@ Turbotlib.log("Starting run...") # optional debug logging
   }
   # The Turbot specification simply requires us to output lines of JSON
   puts JSON.dump(data)
+  
+  sleep 1
 end
